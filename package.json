@@ -1,0 +1,15 @@
+{
+  "name": "product-waterfall",
+  "version": "1.0.0",
+  "description": "Alibaba / 1688 Product Waterfall Demo",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}

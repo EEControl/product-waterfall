@@ -1,0 +1,47 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.media {
+  height: 220px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.media img, .media video {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 13px;
+  margin: 6px 0;
+  flex-shrink: 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.count {
+  font-size: 12px;
+  color: #666;
+}

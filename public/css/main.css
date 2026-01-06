@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+  background: #fafafa;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 12px;
+}
+button.active {
+  background: #1677ff;
+  color: #fff;
+}

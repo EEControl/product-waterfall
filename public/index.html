@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Alibaba / 1688 Product Waterfall</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+<h1>Alibaba / 1688 Product Manager</h1>
+<div class="toolbar">
+  <button class="source-btn active" onclick="switchSource('alibaba', this)">Alibaba</button>
+  <button class="source-btn" onclick="switchSource('1688', this)">1688</button>
+  <select id="dateSelect" onchange="loadProducts(this.value)">
+    <option value="">Select Date</option>
+  </select>
+</div>
+
+<div id="statsBar" style="margin:8px 0 14px; padding:8px 10px; background:#fff; border:1px solid #ddd; border-radius:6px; font-size:13px; display:none;">
+  <span id="statsText"></span>
+  <button id="videoOnlyBtn" style="margin-left:12px;" onclick="toggleVideoOnly()">Show Video Products Only</button>
+</div>
+
+<div id="grid" class="grid"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
