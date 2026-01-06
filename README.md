@@ -4,6 +4,9 @@ This project demonstrates a **product waterfall interface** for Alibaba and 1688
 
 It is open-source for showcasing **technical skills** and can serve as a prototype for **product media management** or **data visualization** projects.
 
+## 🎬 Demo Video
+https://github.com/user-attachments/assets/971fee4b-7250-4244-97bd-d705b71c1d68
+
 ---
 
 ## Features
